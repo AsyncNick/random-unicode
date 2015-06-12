@@ -5,7 +5,9 @@
 >``npm install random-unicode``
 
 ## Usage
-> ``var randomUnicode = require('random-unicode');``
+> ```javascript
+	var randomUnicode = require('random-unicode');
+```
 
 ## Author
 <a href="https://github.com/RivalNick" target="_blank">Nicky Laczko</a>
