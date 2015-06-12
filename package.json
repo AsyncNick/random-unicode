@@ -1,0 +1,23 @@
+{
+  "name": "random-unicode",
+  "version": "1.0.0",
+  "description": "Generate a random unicode code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RivalNick/random-unicode.git"
+  },
+  "keywords": [
+    "unicode",
+    "random"
+  ],
+  "author": "Nicky Laczko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RivalNick/random-unicode/issues"
+  },
+  "homepage": "https://github.com/RivalNick/random-unicode#readme"
+}
