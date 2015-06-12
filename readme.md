@@ -1,4 +1,5 @@
-# Random-Unicode [![Build Status](https://travis-ci.org/RivalNick/randomUnicode.svg?branch=master)](https://travis-ci.org/RivalNick/randomUnicode)
+# Random-Unicode
+# [![Build Status](https://travis-ci.org/RivalNick/randomUnicode.svg?branch=master)](https://travis-ci.org/RivalNick/randomUnicode)
 > Get a random unicode string
 
 ## Get
