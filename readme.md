@@ -1,5 +1,5 @@
-# Random-Unicode [![Build Status](https://travis-ci.org/RivalNick/random-unicode.svg?branch=master)](https://travis-ci.org/RivalNick/random-unicode)
-> Get a random unicode string.
+# Random-Unicode [![Build Status](https://travis-ci.org/RivalNick/randomUnicode.svg?branch=master)](https://travis-ci.org/RivalNick/randomUnicode)
+> Get a random unicode string
 
 ## Get
 >``npm install random-unicode``
