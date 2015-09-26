@@ -2,4 +2,4 @@
 
 var randomUnicode = require('./');
 
-console.log(randomUnicode);
+console.log(randomUnicode());

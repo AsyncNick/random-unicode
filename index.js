@@ -1,23 +1,14 @@
-// index.js
+'use strict';
 
-var u = "\\u";
-var chars = ['a','b','c','d','e','f','g',
-'h','i','j','k','l','m','n',
-'o','p','q','r','s','t','u',
-'v','w','x','y','z']
-var numbs = [0,1,2,3,4,5,6,7,8,9]
+module.exports = function () {
+	var numbs = '0123456789';
+	var nicks = 'abcdefhijklmnopqrstuvwxyz';
+	var key = '\\u';
 
-for (var x in chars) {
-	for (var j in numbs) {
-		var mix = u + chars[x] + numbs[j] + chars[x] + numbs[j] + chars[x] + numbs[j];
-		for (var i = 0; i < 6, i >= 0; i++) {
-			var unicode = mix;
-				if (unicode !== 0) {
-					var randomUnicode = unicode.split('\n').join('');
-					break;
-				}
-		}
+	var randNumbs = numbs.charAt(Math.floor(Math.random() * numbs.length));
+	var randNicks = nicks.charAt(Math.floor(Math.random() * nicks.length));
+
+	for (var i = 0; i < 5; i++) {
+		return key + randNicks + randNumbs + randNicks + randNumbs;
 	}
 }
-
-module.exports = randomUnicode;
